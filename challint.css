@@ -1,0 +1,147 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header, article, .contact, section, footer{
+    max-width: 1100px;;
+    margin:  auto;
+    padding:3rem 8rem;
+    background-color: lightgrey;
+    border-radius: 5px;
+    
+}
+
+
+header a, ul, li{
+    display: inline-block;
+}
+
+article div, img{
+    display: inline-block;
+    width:45%;
+    vertical-align: middle;
+}
+
+footer{
+    background-color: brown;
+}
+
+footer, section{
+    text-align:center;
+    
+}
+
+form, address{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+
+}
+address{
+    text-align: right;
+    
+}
+
+section  {
+    
+    text-align: center;
+    background-color: white;
+    
+}
+ul {
+    padding: 0 0 0 30rem;
+}
+li{
+    margin: 0 2rem;
+}
+p, h2 {
+    margin: 0px;
+}
+
+section p {
+    width:35%;
+    margin: 0 20rem;
+} 
+
+ input, textarea, button{
+    display:block;
+    margin:1rem 0;
+    border-radius: 5px;
+    border:none;
+    padding:1rem;
+}
+
+
+header a {
+    text-decoration: none;
+    color:red;
+    font-size: 1.5rem;
+}
+
+li:first-child{
+    color:red;
+}
+
+div h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+div a{
+    display: block;
+    background-color: red;
+    color:white;
+    border-radius: 7px;
+    width:6rem;
+    text-decoration: none;
+    padding:1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+section h2{
+    margin: 2rem 0 4rem 0;
+}
+section p {
+    
+    padding:0 15rem;
+}
+
+form h2 {
+    
+    color:darkslategray;
+    font-weight: 100;
+}
+
+form button{
+    border:none;
+    background-color: darkslategray;
+    color:white;
+    padding: 1rem 3rem;
+}
+address p{
+    font-size: 0.9rem;
+}
+address h3{
+    font-size:1rem;
+} 
+   
+
+
+
+@media screen and (max-width: 1024px) {
+    header, article div, article img,.contact,.contact form{
+        display: block;
+        margin:none;
+        text-align: right;
+        padding:0;
+    }
+    ul{
+        padding:0;
+    }
+    section p{
+        padding:0;
+        margin:0;
+        float: none;
+    }
+    }
+    
